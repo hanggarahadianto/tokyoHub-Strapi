@@ -1,25 +1,25 @@
 {
   "kind": "collectionType",
-  "collectionName": "categories",
+  "collectionName": "store_categories",
   "info": {
-    "singularName": "category",
-    "pluralName": "categories",
-    "displayName": "category",
-    "description": ""
+    "singularName": "store-category",
+    "pluralName": "store-categories",
+    "displayName": "Store Category"
   },
   "options": {
     "draftAndPublish": true
   },
   "pluginOptions": {},
   "attributes": {
-    "name": {
-      "type": "string"
+    "title": {
+      "type": "string",
+      "required": true
     },
     "stores": {
       "type": "relation",
       "relation": "manyToMany",
       "target": "api::store.store",
-      "mappedBy": "categories"
+      "mappedBy": "store_categories"
     }
   }
 }

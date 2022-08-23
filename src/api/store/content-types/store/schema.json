@@ -28,21 +28,23 @@
         "videos"
       ]
     },
-    "category": {
-      "type": "string",
-      "required": true
-    },
     "openingHours": {
       "displayName": "Opening Hours",
       "type": "component",
       "repeatable": true,
       "component": "opening-hours.opening-hours"
     },
-    "categories": {
+    "store_categories": {
       "type": "relation",
       "relation": "manyToMany",
-      "target": "api::category.category",
+      "target": "api::store-category.store-category",
       "inversedBy": "stores"
+    },
+    "phone": {
+      "type": "string"
+    },
+    "floor": {
+      "type": "string"
     }
   }
 }

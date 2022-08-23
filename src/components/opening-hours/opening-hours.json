@@ -6,13 +6,11 @@
   },
   "options": {},
   "attributes": {
-    "hours": {
-      "type": "string",
-      "required": true
+    "day": {
+      "type": "string"
     },
-    "days": {
-      "type": "string",
-      "required": true
+    "time": {
+      "type": "string"
     }
   }
 }
