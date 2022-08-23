@@ -35,8 +35,14 @@
     "openingHours": {
       "displayName": "Opening Hours",
       "type": "component",
-      "repeatable": false,
+      "repeatable": true,
       "component": "opening-hours.opening-hours"
+    },
+    "categories": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::category.category",
+      "inversedBy": "stores"
     }
   }
 }
