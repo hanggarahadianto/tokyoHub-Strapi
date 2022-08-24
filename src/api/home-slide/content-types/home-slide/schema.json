@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "home_slides",
+  "info": {
+    "singularName": "home-slide",
+    "pluralName": "home-slides",
+    "displayName": "Home Slide"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "image": {
+      "allowedTypes": [
+        "images",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}

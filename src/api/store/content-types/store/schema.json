@@ -45,6 +45,9 @@
     },
     "floor": {
       "type": "string"
+    },
+    "category": {
+      "type": "string"
     }
   }
 }

@@ -30,20 +30,19 @@
       "type": "text",
       "required": true
     },
-    "periode": {
-      "displayName": "periode",
-      "type": "component",
-      "repeatable": true,
-      "component": "periode.periode"
-    },
-    "Time_Event": {
-      "type": "date"
-    },
     "event_categories": {
       "type": "relation",
       "relation": "manyToMany",
       "target": "api::event-category.event-category",
       "inversedBy": "events"
+    },
+    "start_event": {
+      "type": "date",
+      "required": true
+    },
+    "end_event": {
+      "type": "date",
+      "required": true
     }
   }
 }
