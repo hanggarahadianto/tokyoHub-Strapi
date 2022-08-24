@@ -43,6 +43,12 @@
     "end_event": {
       "type": "date",
       "required": true
+    },
+    "background_color": {
+      "type": "string"
+    },
+    "text_color": {
+      "type": "string"
     }
   }
 }
