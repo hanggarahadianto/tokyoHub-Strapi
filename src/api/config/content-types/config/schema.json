@@ -28,7 +28,7 @@
       "component": "social.social"
     },
     "running_text1": {
-      "type": "string"
+      "type": "text"
     },
     "running_text2": {
       "type": "text"
