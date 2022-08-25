@@ -4,7 +4,8 @@
   "info": {
     "singularName": "config",
     "pluralName": "configs",
-    "displayName": "Config"
+    "displayName": "Config",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -25,6 +26,12 @@
       "type": "component",
       "repeatable": false,
       "component": "social.social"
+    },
+    "running_text1": {
+      "type": "string"
+    },
+    "running_text2": {
+      "type": "text"
     }
   }
 }
