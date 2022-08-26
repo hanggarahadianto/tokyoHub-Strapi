@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_facility_more_facility_mores",
+  "info": {
+    "displayName": "facility_more"
+  },
+  "options": {},
+  "attributes": {
+    "pictures": {
+      "allowedTypes": [
+        "images",
+        "videos"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "title": {
+      "type": "string"
+    }
+  }
+}
