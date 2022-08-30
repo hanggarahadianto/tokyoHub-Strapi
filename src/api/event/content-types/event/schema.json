@@ -12,51 +12,65 @@
   },
   "pluginOptions": {},
   "attributes": {
+    "event_category": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::event-category.event-category",
+      "inversedBy": "events"
+    },
     "title": {
       "type": "string",
       "required": true
     },
-    "image": {
+    "thumbnail": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "short_description": {
+      "type": "text",
+      "required": true
+    },
+    "image_slide": {
       "type": "media",
       "multiple": true,
       "required": true,
       "allowedTypes": [
         "images",
-        "videos",
-        "audios"
+        "videos"
       ]
     },
-    "description": {
+    "location": {
       "type": "text",
       "required": true
     },
-    "event_categories": {
-      "type": "relation",
-      "relation": "manyToMany",
-      "target": "api::event-category.event-category",
-      "inversedBy": "events"
+    "long_description": {
+      "type": "richtext",
+      "required": true
     },
-    "start_event": {
+    "start_end_date": {
+      "type": "string",
+      "required": true
+    },
+    "start_date": {
       "type": "date",
       "required": true
     },
-    "end_event": {
-      "type": "date",
-      "required": true
+    "end_date": {
+      "required": true,
+      "type": "date"
     },
-    "background_color": {
-      "type": "string"
+    "slug": {
+      "type": "uid",
+      "targetField": "title"
     },
-    "text_color": {
-      "type": "string"
-    },
-    "thumbnail": {
-      "allowedTypes": [
-        "images"
-      ],
-      "type": "media",
-      "multiple": false,
-      "required": false
+    "seo": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.seo"
     }
   }
 }

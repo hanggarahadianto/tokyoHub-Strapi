@@ -1,11 +1,10 @@
 {
   "kind": "collectionType",
-  "collectionName": "dine_categories",
+  "collectionName": "shop_categories",
   "info": {
-    "singularName": "dine-category",
-    "pluralName": "dine-categories",
-    "displayName": "Dine Category",
-    "description": ""
+    "singularName": "shop-category",
+    "pluralName": "shop-categories",
+    "displayName": "Shop Category"
   },
   "options": {
     "draftAndPublish": true
@@ -19,7 +18,7 @@
       "type": "relation",
       "relation": "oneToMany",
       "target": "api::shop.shop",
-      "mappedBy": "dine_category"
+      "mappedBy": "shop_category"
     }
   }
 }

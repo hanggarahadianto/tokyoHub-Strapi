@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_about_us_page_about_us_items",
+  "info": {
+    "displayName": "About Us Items",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "video_thumbnail": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "video_url": {
+      "type": "string",
+      "required": false
+    },
+    "description": {
+      "type": "richtext",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "kind": "singleType",
+  "collectionName": "dine_pages",
+  "info": {
+    "singularName": "dine-page",
+    "pluralName": "dine-pages",
+    "displayName": "Dine Page",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "dine_place": {
+      "displayName": "Dine Place",
+      "type": "component",
+      "repeatable": true,
+      "component": "dine-page.dine-place"
+    },
+    "running_text": {
+      "type": "string",
+      "required": true
+    },
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.seo"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title"
+    }
+  }
+}

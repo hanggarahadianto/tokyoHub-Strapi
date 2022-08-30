@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_contact_socials",
+  "info": {
+    "displayName": "social"
+  },
+  "options": {},
+  "attributes": {
+    "facebook": {
+      "type": "text"
+    },
+    "instagram": {
+      "type": "text"
+    },
+    "youtube": {
+      "type": "text",
+      "required": false
+    },
+    "twitter": {
+      "type": "string",
+      "required": false
+    }
+  }
+}

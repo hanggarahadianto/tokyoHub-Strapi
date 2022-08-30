@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_about_us_page_lifestyles",
+  "info": {
+    "displayName": "Lifestyle"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": true,
+      "required": false
+    },
+    "year": {
+      "type": "string"
+    },
+    "group": {
+      "type": "string"
+    },
+    "area": {
+      "type": "string"
+    },
+    "location": {
+      "type": "text"
+    }
+  }
+}

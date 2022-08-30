@@ -1,0 +1,39 @@
+{
+  "kind": "singleType",
+  "collectionName": "about_us_pages",
+  "info": {
+    "singularName": "about-us-page",
+    "pluralName": "about-us-pages",
+    "displayName": "About Us Page",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "about_us_items": {
+      "displayName": "About Us Items",
+      "type": "component",
+      "repeatable": true,
+      "component": "about-us-page.about-us-items"
+    },
+    "lifestyle": {
+      "displayName": "Lifestyle",
+      "type": "component",
+      "repeatable": false,
+      "component": "about-us-page.lifestyle"
+    },
+    "explore_iniside": {
+      "displayName": "Explore Inside",
+      "type": "component",
+      "repeatable": false,
+      "component": "about-us-page.explore-inside"
+    },
+    "seo": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.seo"
+    }
+  }
+}

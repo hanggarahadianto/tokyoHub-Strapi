@@ -1,0 +1,56 @@
+{
+  "collectionName": "components_dine_page_dine_places",
+  "info": {
+    "displayName": "Dine Place",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "header": {
+      "type": "string",
+      "required": true
+    },
+    "title": {
+      "type": "text",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "title_color": {
+      "type": "string",
+      "required": true
+    },
+    "bg_color": {
+      "type": "string",
+      "required": true
+    },
+    "slide_images": {
+      "type": "media",
+      "multiple": true,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "location": {
+      "type": "text",
+      "required": true
+    },
+    "button_color": {
+      "type": "string"
+    },
+    "button_text_color": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "kind": "singleType",
+  "collectionName": "whats_on_pages",
+  "info": {
+    "singularName": "whats-on-page",
+    "pluralName": "whats-on-pages",
+    "displayName": "Whats On Page",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "image": {
+      "type": "media",
+      "multiple": true,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "videos"
+      ]
+    },
+    "hightlight": {
+      "displayName": "Hightlight",
+      "type": "component",
+      "repeatable": false,
+      "component": "whats-on-page.hightlight"
+    }
+  }
+}

@@ -1,38 +1,41 @@
 {
-  "kind": "collectionType",
+  "kind": "singleType",
   "collectionName": "contacts",
   "info": {
     "singularName": "contact",
     "pluralName": "contacts",
-    "displayName": "Contact",
-    "description": ""
+    "displayName": "Contact"
   },
   "options": {
-    "draftAndPublish": true
+    "draftAndPublish": false
   },
   "pluginOptions": {},
   "attributes": {
-    "name": {
-      "type": "string",
-      "required": true,
-      "maxLength": 40,
-      "minLength": 3
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": true,
+      "required": true
     },
-    "email": {
-      "type": "email",
-      "required": true,
-      "maxLength": 40,
-      "minLength": 8
+    "address": {
+      "type": "text",
+      "required": true
     },
-    "regarding": {
-      "type": "text"
-    },
-    "message": {
-      "type": "text"
+    "bussiness_hours": {
+      "type": "text",
+      "required": true
     },
     "phone": {
-      "type": "string",
+      "type": "text",
       "required": true
+    },
+    "social": {
+      "displayName": "social",
+      "type": "component",
+      "repeatable": true,
+      "component": "contact.social"
     }
   }
 }

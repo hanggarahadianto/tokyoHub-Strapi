@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_facility_page_mores",
+  "info": {
+    "displayName": "more"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": true,
+      "required": false
+    }
+  }
+}
