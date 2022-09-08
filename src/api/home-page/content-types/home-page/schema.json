@@ -23,7 +23,7 @@
     "discover": {
       "displayName": "discover",
       "type": "component",
-      "repeatable": false,
+      "repeatable": true,
       "component": "homepage.discover"
     },
     "about": {
