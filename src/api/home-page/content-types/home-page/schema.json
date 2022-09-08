@@ -26,11 +26,6 @@
       "repeatable": false,
       "component": "homepage.discover"
     },
-    "seo": {
-      "type": "component",
-      "repeatable": true,
-      "component": "shared.seo"
-    },
     "about": {
       "type": "richtext",
       "required": true
@@ -40,6 +35,11 @@
       "type": "component",
       "repeatable": true,
       "component": "homepage.preview"
+    },
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.seo"
     }
   }
 }

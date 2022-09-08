@@ -30,9 +30,13 @@
       "type": "media",
       "multiple": false,
       "required": true,
-      "allowedTypes": [
-        "images"
-      ]
+      "allowedTypes": ["images"]
+    },
+    "opening_hours": {
+      "displayName": "opening_hours",
+      "type": "component",
+      "repeatable": true,
+      "component": "shop.opening-hours"
     },
     "dine_category": {
       "type": "relation",

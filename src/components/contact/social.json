@@ -6,11 +6,21 @@
   },
   "options": {},
   "attributes": {
-    "account": {
-      "displayName": "account",
-      "type": "component",
-      "repeatable": true,
-      "component": "contact.account"
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "icon": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "url": {
+      "type": "text",
+      "required": true
     }
   }
 }

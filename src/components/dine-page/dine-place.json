@@ -28,11 +28,11 @@
     },
     "title_color": {
       "type": "string",
-      "required": true
+      "required": false
     },
     "bg_color": {
       "type": "string",
-      "required": true
+      "required": false
     },
     "slide_images": {
       "type": "media",
@@ -53,12 +53,12 @@
       "type": "string"
     },
     "button_image": {
-      "allowedTypes": [
-        "images"
-      ],
       "type": "media",
       "multiple": false,
-      "required": true
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
     }
   }
 }
