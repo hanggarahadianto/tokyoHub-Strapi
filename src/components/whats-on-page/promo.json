@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_whats_on_page_promos",
+  "info": {
+    "displayName": "promo"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}

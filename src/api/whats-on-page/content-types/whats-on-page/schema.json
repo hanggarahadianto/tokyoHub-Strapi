@@ -12,24 +12,17 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "title": {
-      "type": "string",
-      "required": true
+    "event_highlight": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::event.event"
     },
-    "image": {
-      "type": "media",
-      "multiple": true,
-      "required": true,
-      "allowedTypes": [
-        "images",
-        "videos"
-      ]
-    },
-    "hightlight": {
-      "displayName": "Hightlight",
+    "promo": {
+      "displayName": "promo",
       "type": "component",
-      "repeatable": false,
-      "component": "whats-on-page.hightlight"
+      "repeatable": true,
+      "component": "whats-on-page.promo",
+      "required": false
     }
   }
 }

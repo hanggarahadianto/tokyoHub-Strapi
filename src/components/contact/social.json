@@ -1,23 +1,16 @@
 {
   "collectionName": "components_contact_socials",
   "info": {
-    "displayName": "social"
+    "displayName": "social",
+    "description": ""
   },
   "options": {},
   "attributes": {
-    "facebook": {
-      "type": "text"
-    },
-    "instagram": {
-      "type": "text"
-    },
-    "youtube": {
-      "type": "text",
-      "required": false
-    },
-    "twitter": {
-      "type": "string",
-      "required": false
+    "account": {
+      "displayName": "account",
+      "type": "component",
+      "repeatable": true,
+      "component": "contact.account"
     }
   }
 }

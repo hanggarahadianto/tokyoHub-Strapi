@@ -14,9 +14,7 @@
       "type": "media",
       "multiple": true,
       "required": true,
-      "allowedTypes": [
-        "images"
-      ]
+      "allowedTypes": ["images"]
     },
     "location": {
       "type": "string",
@@ -30,15 +28,27 @@
       "type": "media",
       "multiple": false,
       "required": true,
-      "allowedTypes": [
-        "images"
-      ]
+      "allowedTypes": ["images"]
+    },
+    "text_color": {
+      "type": "string",
+      "required": true
+    },
+    "bg_color": {
+      "type": "string",
+      "required": true
     },
     "more": {
       "displayName": "more",
       "type": "component",
       "repeatable": true,
       "component": "facility-page.more"
+    },
+    "button": {
+      "displayName": "button",
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.button"
     }
   }
 }

@@ -51,6 +51,14 @@
     },
     "button_text_color": {
       "type": "string"
+    },
+    "button_image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
     }
   }
 }

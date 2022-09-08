@@ -4,7 +4,8 @@
   "info": {
     "singularName": "contact",
     "pluralName": "contacts",
-    "displayName": "Contact"
+    "displayName": "Contact",
+    "description": ""
   },
   "options": {
     "draftAndPublish": false
@@ -12,18 +13,18 @@
   "pluginOptions": {},
   "attributes": {
     "image": {
-      "allowedTypes": [
-        "images"
-      ],
       "type": "media",
       "multiple": true,
-      "required": true
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
     },
     "address": {
       "type": "text",
       "required": true
     },
-    "bussiness_hours": {
+    "business_hours": {
       "type": "text",
       "required": true
     },
@@ -34,7 +35,7 @@
     "social": {
       "displayName": "social",
       "type": "component",
-      "repeatable": true,
+      "repeatable": false,
       "component": "contact.social"
     }
   }
