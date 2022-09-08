@@ -8,20 +8,20 @@
   "options": {},
   "attributes": {
     "metaTitle": {
-      "required": true,
+      "required": false,
       "type": "string",
       "maxLength": 60
     },
     "metaDescription": {
       "type": "string",
-      "required": true,
+      "required": false,
       "maxLength": 160,
       "minLength": 50
     },
     "metaImage": {
       "type": "media",
       "multiple": false,
-      "required": true,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",

@@ -23,6 +23,11 @@
       "repeatable": true,
       "component": "whats-on-page.promo",
       "required": false
+    },
+    "seo": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.seo"
     }
   }
 }

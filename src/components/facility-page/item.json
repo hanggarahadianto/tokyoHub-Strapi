@@ -36,11 +36,11 @@
     },
     "text_color": {
       "type": "string",
-      "required": true
+      "required": false
     },
     "bg_color": {
       "type": "string",
-      "required": true
+      "required": false
     },
     "more": {
       "displayName": "more",

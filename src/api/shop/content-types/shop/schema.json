@@ -30,7 +30,9 @@
       "type": "media",
       "multiple": false,
       "required": true,
-      "allowedTypes": ["images"]
+      "allowedTypes": [
+        "images"
+      ]
     },
     "opening_hours": {
       "displayName": "opening_hours",
