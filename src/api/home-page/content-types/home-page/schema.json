@@ -29,8 +29,15 @@
     "discover": {
       "displayName": "discover",
       "type": "component",
-      "repeatable": true,
+      "repeatable": false,
       "component": "homepage.discover"
+    },
+    "tenant": {
+      "displayName": "tenant",
+      "type": "component",
+      "repeatable": true,
+      "component": "homepage.tenant",
+      "required": true
     },
     "about": {
       "type": "richtext",

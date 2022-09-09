@@ -13,12 +13,6 @@
     "subtitle": {
       "type": "string",
       "required": true
-    },
-    "tenant": {
-      "displayName": "tenant",
-      "type": "component",
-      "repeatable": true,
-      "component": "homepage.tenant"
     }
   }
 }

@@ -9,7 +9,7 @@
       "type": "string",
       "required": true
     },
-    "logo": {
+    "image": {
       "allowedTypes": [
         "images"
       ],
