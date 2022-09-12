@@ -26,9 +26,7 @@
       "type": "media",
       "multiple": false,
       "required": true,
-      "allowedTypes": [
-        "images"
-      ]
+      "allowedTypes": ["images"]
     },
     "short_description": {
       "type": "text",
@@ -38,10 +36,7 @@
       "type": "media",
       "multiple": true,
       "required": true,
-      "allowedTypes": [
-        "images",
-        "videos"
-      ]
+      "allowedTypes": ["images", "videos"]
     },
     "location": {
       "type": "text",

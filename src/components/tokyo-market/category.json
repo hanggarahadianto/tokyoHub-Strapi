@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_tokyo_market_categories",
+  "info": {
+    "displayName": "Category",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "shop": {
+      "displayName": "shop",
+      "type": "component",
+      "repeatable": true,
+      "component": "tokyo-market.shop"
+    }
+  }
+}

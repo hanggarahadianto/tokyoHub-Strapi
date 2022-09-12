@@ -1,0 +1,30 @@
+{
+  "kind": "singleType",
+  "collectionName": "tokyo_markets",
+  "info": {
+    "singularName": "tokyo-market",
+    "pluralName": "tokyo-markets",
+    "displayName": "Tokyo Market",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "banner": {
+      "type": "media",
+      "multiple": true,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "category": {
+      "displayName": "Category",
+      "type": "component",
+      "repeatable": true,
+      "component": "tokyo-market.category"
+    }
+  }
+}

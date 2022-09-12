@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_shinjuku_street_shops",
+  "info": {
+    "displayName": "shop"
+  },
+  "options": {},
+  "attributes": {
+    "shop_name": {
+      "type": "string",
+      "required": true
+    },
+    "shop_category": {
+      "type": "text",
+      "required": true
+    },
+    "place": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

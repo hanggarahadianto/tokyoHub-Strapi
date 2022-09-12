@@ -1,0 +1,29 @@
+{
+  "kind": "singleType",
+  "collectionName": "roppongi_lanes",
+  "info": {
+    "singularName": "roppongi-lane",
+    "pluralName": "roppongi-lanes",
+    "displayName": "Roppongi Lane"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "banner": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": true,
+      "required": true
+    },
+    "category": {
+      "displayName": "category",
+      "type": "component",
+      "repeatable": true,
+      "component": "roppongi-lane.category"
+    }
+  }
+}

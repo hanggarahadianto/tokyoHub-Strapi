@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_roppongi_lane_categories",
+  "info": {
+    "displayName": "category"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "shop": {
+      "displayName": "shop",
+      "type": "component",
+      "repeatable": true,
+      "component": "roppongi-lane.shop"
+    }
+  }
+}

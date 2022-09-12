@@ -1,0 +1,30 @@
+{
+  "kind": "singleType",
+  "collectionName": "shinjuku_streets",
+  "info": {
+    "singularName": "shinjuku-street",
+    "pluralName": "shinjuku-streets",
+    "displayName": "Shinjuku Street",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "banner": {
+      "type": "media",
+      "multiple": true,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "category": {
+      "displayName": "Category",
+      "type": "component",
+      "repeatable": true,
+      "component": "shinjuku-street.category"
+    }
+  }
+}
