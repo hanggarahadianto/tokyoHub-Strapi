@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_about_us_page_category_names",
+  "info": {
+    "displayName": "category_name",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}

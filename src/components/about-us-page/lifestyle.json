@@ -1,29 +1,16 @@
 {
   "collectionName": "components_about_us_page_lifestyles",
   "info": {
-    "displayName": "Lifestyle"
+    "displayName": "Lifestyle",
+    "description": ""
   },
   "options": {},
   "attributes": {
-    "image": {
-      "allowedTypes": [
-        "images"
-      ],
-      "type": "media",
-      "multiple": true,
-      "required": false
-    },
-    "year": {
-      "type": "string"
-    },
-    "group": {
-      "type": "string"
-    },
-    "area": {
-      "type": "string"
-    },
-    "location": {
-      "type": "text"
+    "category_name": {
+      "displayName": "category_name",
+      "type": "component",
+      "repeatable": true,
+      "component": "about-us-page.category-name"
     }
   }
 }
