@@ -18,22 +18,17 @@
       "repeatable": true,
       "component": "about-us-page.about-us-items"
     },
-    "lifestyle": {
-      "displayName": "Lifestyle",
-      "type": "component",
-      "repeatable": false,
-      "component": "about-us-page.lifestyle"
-    },
     "explore_iniside": {
       "displayName": "Explore Inside",
       "type": "component",
       "repeatable": false,
       "component": "about-us-page.explore-inside"
     },
-    "seo": {
+    "lifestyle": {
+      "displayName": "Lifestyle",
       "type": "component",
       "repeatable": false,
-      "component": "shared.seo"
+      "component": "about-us-page.lifestyle"
     },
     "additional_information": {
       "displayName": "Additional Information",
@@ -41,6 +36,11 @@
       "repeatable": false,
       "component": "about-us-page.additional-information",
       "required": true
+    },
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.seo"
     }
   }
 }
