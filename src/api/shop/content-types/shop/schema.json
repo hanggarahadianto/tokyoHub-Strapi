@@ -38,7 +38,8 @@
       "displayName": "opening_hours",
       "type": "component",
       "repeatable": true,
-      "component": "shop.opening-hours"
+      "component": "shop.opening-hours",
+      "required": true
     },
     "dine_category": {
       "type": "relation",
@@ -59,6 +60,14 @@
       "type": "component",
       "repeatable": true,
       "component": "shared.seo"
+    },
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
     }
   }
 }

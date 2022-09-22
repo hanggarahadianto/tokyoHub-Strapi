@@ -19,11 +19,11 @@
       "component": "homepage.banner"
     },
     "running_text1": {
-      "type": "string",
+      "type": "text",
       "required": true
     },
     "running_text2": {
-      "type": "string",
+      "type": "text",
       "required": true
     },
     "discover": {

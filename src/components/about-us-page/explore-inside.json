@@ -1,19 +1,21 @@
 {
   "collectionName": "components_about_us_page_explore_insides",
   "info": {
-    "displayName": "Explore Inside"
+    "displayName": "Explore Inside",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "header": {
-      "type": "string"
+      "type": "text"
     },
     "images": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
       "allowedTypes": [
         "images"
-      ],
-      "type": "media",
-      "multiple": true
+      ]
     }
   }
 }

@@ -21,6 +21,12 @@
       "relation": "oneToMany",
       "target": "api::event.event",
       "mappedBy": "event_category"
+    },
+    "text_color": {
+      "type": "string"
+    },
+    "bg_color": {
+      "type": "string"
     }
   }
 }

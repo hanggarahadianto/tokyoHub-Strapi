@@ -13,7 +13,7 @@
   "pluginOptions": {},
   "attributes": {
     "header": {
-      "type": "string",
+      "type": "text",
       "required": false
     },
     "Item": {
