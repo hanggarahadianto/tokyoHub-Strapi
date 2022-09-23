@@ -4,7 +4,8 @@
   "info": {
     "singularName": "shop-category",
     "pluralName": "shop-categories",
-    "displayName": "Shop Category"
+    "displayName": "Shop Category",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -19,6 +20,12 @@
       "relation": "oneToMany",
       "target": "api::shop.shop",
       "mappedBy": "shop_category"
+    },
+    "bg_color": {
+      "type": "string"
+    },
+    "text_color": {
+      "type": "string"
     }
   }
 }

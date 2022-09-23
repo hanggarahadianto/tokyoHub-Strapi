@@ -20,12 +20,6 @@
       "relation": "oneToMany",
       "target": "api::shop.shop",
       "mappedBy": "dine_category"
-    },
-    "text_color": {
-      "type": "string"
-    },
-    "bg_color": {
-      "type": "string"
     }
   }
 }
