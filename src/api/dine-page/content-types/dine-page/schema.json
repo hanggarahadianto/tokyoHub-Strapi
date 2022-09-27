@@ -23,7 +23,7 @@
       "component": "dine-page.dine-place"
     },
     "running_text": {
-      "type": "string",
+      "type": "text",
       "required": true
     },
     "seo": {
